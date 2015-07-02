@@ -36,13 +36,13 @@
   padding-left: 20px;
   > li {
     display: inline-block;
-  }
-  > li:after {
-    content: "-";
-  }
-  > li:last-of-type:after {
-    content: none;
-  }
+      &:after {
+        content: "\2022";
+      }
+      &:last-of-type:after {
+        content: none;
+      }
+    }
 }
 .post__headerNav > li > a {
   color: inherit;

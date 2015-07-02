@@ -49,10 +49,10 @@ body {
   padding-left: 20px; }
   .post__headerNav > li {
     display: inline-block; }
-  .post__headerNav > li:after {
-    content: "-"; }
-  .post__headerNav > li:last-of-type:after {
-    content: none; }
+    .post__headerNav > li:after {
+      content: "\2022"; }
+    .post__headerNav > li:last-of-type:after {
+      content: none; }
 
 .post__headerNav > li > a {
   color: inherit;
