@@ -1,0 +1,93 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  min-height: 100%;
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px; }
+
+.post__header__logo {
+  height: 80px;
+  margin: 0 20px;
+  border-bottom: 2px solid #fff; }
+  @media screen and (max-width: 680px) {
+    .post__header__logo {
+      height: 40px;
+      border-bottom: none; } }
+
+.post__header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  background-image: url("./images/hunkahunkakittylove.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: #DCBF79;
+  color: #FFFFFF; }
+  .post__header > h1 {
+    font: "Helvetica Neue", Arial, sans-serif;
+    font-size: 2em;
+    padding-left: 20px;
+    margin-bottom: 40px; }
+  @media screen and (max-width: 680px) {
+    .post__header {
+      position: absolute;
+      bottom: 60%;
+      margin-bottom: 5px;
+      width: 100%; } }
+
+.post__headerNav {
+  list-style: none;
+  margin-top: 15px;
+  padding-left: 20px; }
+  .post__headerNav > li {
+    display: inline-block; }
+  .post__headerNav > li:after {
+    content: "-"; }
+  .post__headerNav > li:last-of-type:after {
+    content: none; }
+
+.post__headerNav > li > a {
+  color: inherit;
+  text-decoration: none; }
+  .post__headerNav > li > a:hover {
+    background-color: #D6AC30; }
+
+.post__content__header {
+  padding: 40px;
+  border-bottom: 2px solid #6D6D6D; }
+  @media screen and (max-width: 680px) {
+    .post__content__header {
+      border-bottom: none; } }
+
+.post__content {
+  width: 50%;
+  max-width: 600px;
+  margin-left: 50%;
+  padding: 0 40px 40px 40px;
+  line-height: 27px;
+  color: #6D6D6D; }
+  @media screen and (max-width: 680px) {
+    .post__content {
+      position: absolute;
+      top: 10%;
+      width: 100%;
+      margin-top: 20%;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 5%; } }
+
+.post__content img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*# sourceMappingURL=main.css.map */
