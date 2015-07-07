@@ -1,0 +1,80 @@
+.post__headerLogo {
+  height: 80px;
+  margin: 0 20px;
+  border-bottom: 2px solid #fff;
+  @media screen and (max-width: 680px) {
+    height: 40px;
+    border-bottom: none;
+  }
+}
+.post__header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  background-image: url('./images/hunkahunkakittylove.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: #DCBF79;
+  color: $text_light;
+  > h1 {
+    font: $header_font;
+    font-size: 2em;
+    padding-left: 20px;
+    margin-bottom: 40px;
+  }
+  @media screen and (max-width: 680px) {
+    position: absolute;
+    bottom: 60%;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+}
+.post__headerNav {
+  list-style: none;
+  margin-top: 15px;
+  padding-left: 20px;
+  > li {
+    display: inline-block;
+    &:after {
+      content: "\2022";
+    }
+    &:last-of-type:after {
+      content: none;
+    }
+  }
+}
+.post__headerNav > li > a {
+  color: inherit;
+  text-decoration: none;
+  &:hover {
+    background-color: #D6AC30;
+  }
+}
+.post__contentHeader {
+  padding: 40px;
+  border-bottom: 2px solid $text_dark;
+  @media screen and (max-width: 680px) {
+      border-bottom: none;
+  }
+}
+.post__content {
+  width: 50%;
+  max-width: 600px;
+  margin-left: 50%;
+  padding: 0 40px 40px 40px;
+  line-height: 27px;
+  color: $text_dark;
+  @media screen and (max-width: 680px) {
+      position: absolute;
+      top: 30%;
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 5%;
+  }
+}
+.post__content img {
+  width: 80%;
+  @include center_image;
+}
