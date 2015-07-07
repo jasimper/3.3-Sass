@@ -1,10 +1,10 @@
-.post__header__logo {
+.post__headerLogo {
   height: 80px;
   margin: 0 20px;
   border-bottom: 2px solid #fff;
   @media screen and (max-width: 680px) {
-      height: 40px;
-      border-bottom: none;
+    height: 40px;
+    border-bottom: none;
   }
 }
 .post__header {
@@ -24,10 +24,10 @@
     margin-bottom: 40px;
   }
   @media screen and (max-width: 680px) {
-      position: absolute;
-      bottom: 60%;
-      margin-bottom: 5px;
-      width: 100%;
+    position: absolute;
+    bottom: 60%;
+    margin-bottom: 5px;
+    width: 100%;
   }
 }
 .post__headerNav {
@@ -36,22 +36,22 @@
   padding-left: 20px;
   > li {
     display: inline-block;
-      &:after {
-        content: "\2022";
-      }
-      &:last-of-type:after {
-        content: none;
-      }
+    &:after {
+      content: "\2022";
     }
+    &:last-of-type:after {
+      content: none;
+    }
+  }
 }
 .post__headerNav > li > a {
   color: inherit;
   text-decoration: none;
   &:hover {
-    background-color: #D6AC30
+    background-color: #D6AC30;
   }
 }
-.post__content__header {
+.post__contentHeader {
   padding: 40px;
   border-bottom: 2px solid $text_dark;
   @media screen and (max-width: 680px) {
@@ -67,9 +67,8 @@
   color: $text_dark;
   @media screen and (max-width: 680px) {
       position: absolute;
-      top: 10%;
+      top: 30%;
       width: 100%;
-      margin-top: 20%;
       margin-left: 0;
       margin-right: 0;
       padding: 5%;

@@ -12,12 +12,12 @@ body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
-.post__header__logo {
+.post__headerLogo {
   height: 80px;
   margin: 0 20px;
   border-bottom: 2px solid #fff; }
   @media screen and (max-width: 680px) {
-    .post__header__logo {
+    .post__headerLogo {
       height: 40px;
       border-bottom: none; } }
 
@@ -60,11 +60,11 @@ body {
   .post__headerNav > li > a:hover {
     background-color: #D6AC30; }
 
-.post__content__header {
+.post__contentHeader {
   padding: 40px;
   border-bottom: 2px solid #6D6D6D; }
   @media screen and (max-width: 680px) {
-    .post__content__header {
+    .post__contentHeader {
       border-bottom: none; } }
 
 .post__content {
@@ -77,9 +77,8 @@ body {
   @media screen and (max-width: 680px) {
     .post__content {
       position: absolute;
-      top: 10%;
+      top: 30%;
       width: 100%;
-      margin-top: 20%;
       margin-left: 0;
       margin-right: 0;
       padding: 5%; } }
